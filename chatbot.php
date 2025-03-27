@@ -2,7 +2,7 @@
 header("Content-Type: application/json");
 
 // API Key
-$api_key = "AIzaSyDSaj87x0jJfRHQtk5b4BvZ8DDVmHQ8B6k";
+$api_key = "API KEY";
 
 // Get user input request
 $input_text = json_decode(file_get_contents("php://input"), true)['user_input'] ?? '';
